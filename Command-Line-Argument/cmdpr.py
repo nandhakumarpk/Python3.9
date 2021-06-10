@@ -14,4 +14,5 @@ else:
     ar[0]=int(ar[0])
     ar[1]=int(ar[1])
     for a in range(ar[0],ar[1]+1):
-        if (isprime(a)): print(a)
+        if (isprime(a)):
+            print(a)
