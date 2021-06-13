@@ -11,7 +11,8 @@ def shellsort(arr):
             arr[j] = temp
         gap //= 2
 
-arr=[5,3,9,7,85,12,455,65]
+arr=[]
+[arr.append(int(a)) for a in input().split()]
 print("Before sorting",arr)
 shellsort(arr)
 print(arr)
