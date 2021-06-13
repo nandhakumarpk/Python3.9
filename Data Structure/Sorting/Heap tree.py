@@ -48,5 +48,5 @@ for i in elements:
 
 print ("Max-Heap array: " + str(arr))
 
-deleteNode(arr, 4)
+deleteNode(arr, element[-1])
 print("After deleting an element: " + str(arr))
