@@ -39,12 +39,12 @@ def deleteNode(array, num):
         heapify(array, len(array), i)
     
 arr = []
+element=[]
 
-insert(arr, 3)
-insert(arr, 4)
-insert(arr, 9)
-insert(arr, 5)
-insert(arr, 2)
+[elements.append(int(a)) for a in input().split()]
+
+for i in elements:
+    insert(arr,i)
 
 print ("Max-Heap array: " + str(arr))
 
