@@ -2,14 +2,14 @@
 #3. class derived from ABC and having an abstractemthod
 from abc import *
 class Student(ABC):
-@abstractmethod
-def method1(self):
-pass
+  @abstractmethod
+  def method1(self):
+    pass
 
 
 
 if __name__=="__main__":
-s = Student()
+  s = Student()
 
 
 
