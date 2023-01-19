@@ -2,16 +2,16 @@
 #4. class not derived from ABC but having abstractmethod
 from abc import *
 class Student:
-@abstractmethod
-def method1(self):
-pass
+  @abstractmethod
+  def method1(self):
+    pass
 
 
 
 if __name__== "__main__":
-s = Student()
-print(s)
-print(type(s))
+  s = Student()
+  print(s)
+  print(type(s))
 
 
 
