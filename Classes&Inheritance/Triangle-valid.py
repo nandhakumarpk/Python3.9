@@ -39,7 +39,7 @@ class Mytriangle:
     
     def area(self):
         import math
-        if self.isValid:
+        if self.isValid():
             S=(self.getSide1()+self.getSide2()+self.getSide3())/2
             a=S*((S-self.getSide1())*(S-self.getSide2())*(S-self.getSide3()))
             return math.sqrt(a)
